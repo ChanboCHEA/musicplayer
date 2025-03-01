@@ -67,7 +67,7 @@ $background = [10, 10, 25]; // Dark blue background
 
     <div class="audio-controls">
         <h3>Audio Player</h3>
-        <audio id="audio" controls>
+        <audio id="audio" controls autoplay>
             <source src="Messy.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
